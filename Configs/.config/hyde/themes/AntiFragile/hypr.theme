@@ -1,0 +1,6 @@
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+
+$GTK_THEME=Dracula-pink-accent 
+$ICON_THEME=Tela-circle-yellow
+$COLOR_SCHEME=prefer-dark 
+$CURSOR_SIZE=30 # cursor size in pixels
