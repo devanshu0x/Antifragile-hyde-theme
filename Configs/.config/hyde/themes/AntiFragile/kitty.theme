@@ -1,44 +1,62 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
-foreground              #FFFFFF
-background              #000000
-selection_foreground    #000000
-selection_background    #FFFFFF
-cursor                  #A4A8C7
-cursor_text_color       #0C0C0B
+# Oxocarbon theme for Kitty
 
-active_tab_foreground     #000000
-active_tab_background     #8C5250
-inactive_tab_foreground   #8C5250
-inactive_tab_background   #000000
+# The basic colors
+foreground              #ffffff
+background              #161616
+selection_foreground    #161616
+selection_background    #33b1ff
+
+# Cursor colors
+cursor                  #33b1ff
+cursor_text_color       #161616
+
+# URL underline color when hovering with mouse
+url_color               #42be65
+
+# Kitty window border colors
+active_border_color     #33b1ff
+inactive_border_color   #262626
+bell_border_color       #ffe97b
+
+# Tab bar colors
+active_tab_foreground   #161616
+active_tab_background   #33b1ff
+inactive_tab_foreground #161616
+inactive_tab_background #3ddbd9
+tab_bar_background      #161616
+
+# The 16 terminal colors
 
 # black
-color0      #1A1A1A
-color8      #636363
+color0 #262626
+color8 #393939
 
 # red
-color1      #FCFCFC
-color9      #D6D6D6
+color1 #ee5396
+color9 #ee5396
 
 # green
-color2      #FCFCFC
-color10     #D6D6D6
+color2  #42be65
+color10 #42be65
 
 # yellow
-color3      #FCFCFC
-color11     #D6D6D6
+color3  #ffe97b
+color11 #ffe97b
 
 # blue
-color4      #B8B8B8
-color12     #B8B8B8
+color4  #33b1ff
+color12 #33b1ff
 
 # magenta
-color5      #B8B8B8
-color13     #B8B8B8
+color5  #ff7eb6
+color13 #ff7eb6
 
 # cyan
-color6      #B8B8B8
-color14     #B8B8B8
+color6  #3ddbd9
+color14 #3ddbd9
 
 # white
-color7      #FCFCFC
-color15     #D6D6D6
+color7  #dde1e6
+color15 #ffffff
+

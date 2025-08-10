@@ -1,6 +1,43 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 
-$GTK_THEME=Dracula-pink-accent 
-$ICON_THEME=Tela-circle-yellow
-$COLOR_SCHEME=prefer-dark 
-$CURSOR_SIZE=30 # cursor size in pixels
+$GTK_THEME = Dracula-pink-accent
+$ICON_THEME = Tela-circle-yellow
+$COLOR_SCHEME=prefer-dark
+
+$CURSOR_SIZE=20
+
+general {
+    gaps_in = 3
+    gaps_out = 8
+    border_size = 2
+    col.active_border = rgba(FCF300ff) rgba(FF8F0Cff) 45deg
+    col.inactive_border = rgba(9DFFF9ff) rgba(E5D4EDff) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(eb6f92ff) rgba(c4a7e7ff) 45deg
+    col.border_inactive = rgba(1E96FCcc) rgba(072AC8cc) 45deg
+    col.border_locked_active = rgba(eb6f92ff) rgba(c4a7e7ff) 45deg
+    col.border_locked_inactive = rgba(31748fcc) rgba(9ccfd8cc) 45deg
+}
+
+decoration {
+    rounding = 5
+
+    blur {
+        enabled = yes
+        size = 6
+        passes = 3
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+
+    shadow {
+        enabled = false
+    }
+}
+
+layerrule = blur,waybar
